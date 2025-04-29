@@ -4,7 +4,7 @@ public class Shows{
     System.out.print(value);
   }
   public static <T> void println(T value){
-    System.out.println(value);
+    System.out.println("\n"+value);
   }
   public static <T> void type(T value){
     System.out.println("Type of " + value + " is: " + value.getClass());
